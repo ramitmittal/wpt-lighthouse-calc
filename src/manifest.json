@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "WPT Lighthouse Calc",
+  "description": "Calculate Lighthouse scores from WPT results.",
+  "version": "1.0.0",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "commands": {
+    "open": {
+      "suggested_key": "Alt+L",
+      "description": "Open Lighthouse Scorecalc page from WPT results"
+    }
+  },
+  "permissions": ["activeTab", "tabs", "webRequest"]
+}
